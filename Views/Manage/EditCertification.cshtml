@@ -1,0 +1,35 @@
+﻿@model OnlineCv.Models.CertificationItem
+@{
+    ViewData["Title"] = "Edit Certification";
+}
+
+<div class="container">
+    <h1>Edit Certification</h1>
+
+    <form method="post" class="form">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+
+        <label>Name</label>
+        <input class="input" asp-for="Name" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Name)</span>
+
+        <label>Issuer (optional)</label>
+        <input class="input" asp-for="Issuer" />
+
+        <label>Year (optional)</label>
+        <input class="input" asp-for="Year" />
+
+        <label>Credential URL (optional)</label>
+        <input class="input" asp-for="Url" />
+
+        <div class="actions">
+            <button class="btn btn-primary" type="submit">Save</button>
+            <a class="btn" href="/manage/certifications">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

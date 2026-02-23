@@ -1,31 +1,220 @@
-html {
-  font-size: 14px;
+:root {
+    --bg: #ffffff;
+    --text: #111;
+    --muted: #666;
+    --line: #e8e8e8;
+    --card: #fafafa;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+* {
+    box-sizing: border-box;
 }
 
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    line-height: 1.5;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+    a:hover {
+        opacity: .85;
+    }
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.topbar {
+    border-bottom: 1px solid var(--line);
+    background: #fff;
+}
+
+.topbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.brand {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.linkbtn {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.notice {
+    border: 1px solid var(--line);
+    background: var(--card);
+    padding: 12px;
+    border-radius: 12px;
+    margin: 16px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+}
+
+.card {
+    display: block;
+    padding: 14px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--card);
+    text-decoration: none;
+}
+
+    .card:hover {
+        background: #f4f4f4;
+    }
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table th, .table td {
+        text-align: left;
+        padding: 10px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+    }
+
+.actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .btn:hover {
+        background: #f6f6f6;
+    }
+
+.btn-danger {
+    border-color: #ffcccc;
+}
+
+.btn-primary {
+    border-color: #cfe3ff;
+}
+
+.form {
+    display: grid;
+    gap: 12px;
+    max-width: 720px;
+}
+
+.input, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    font: inherit;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+.help {
+    color: var(--muted);
+    font-size: .95rem;
+}
+
+.ok {
+    border: 1px solid #cdeccd;
+    background: #f0fff0;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.err {
+    border: 1px solid #ffcccc;
+    background: #fff0f0;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.hero {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #f2f2f2;
+    border: 1px solid var(--line);
+}
+
+    .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.section {
+    margin-top: 22px;
+}
+
+.hr {
+    border-top: 1px solid var(--line);
+    margin: 14px 0;
+}
+
+.tagrow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.tag {
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 6px 10px;
+    background: #fff;
+    font-size: .95rem;
 }

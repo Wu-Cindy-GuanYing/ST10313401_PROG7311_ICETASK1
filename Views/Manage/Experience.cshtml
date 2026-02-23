@@ -1,0 +1,45 @@
+﻿@model List<OnlineCv.Models.ExperienceItem>
+@{
+    ViewData["Title"] = "Experience";
+}
+
+<div class="container">
+    <div class="actions" style="justify-content:space-between;">
+        <h1>Experience</h1>
+        <a class="btn btn-primary" href="/manage/addexperience">Add Experience</a>
+    </div>
+
+    <table class="table" style="margin-top:12px;">
+        <thead>
+            <tr>
+                <th>Role / Company</th>
+                <th>Date</th>
+                <th>Bullets</th>
+                <th style="width:180px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var x in Model)
+            {
+                <tr>
+                    <td><strong>@x.Role</strong><div class="help">@x.Company</div></td>
+                    <td>@x.DateRange</td>
+                    <td style="white-space:pre-line;">@x.Bullets</td>
+                    <td>
+                        <div class="actions">
+                            <a class="btn" href="/manage/editexperience/@x.Id">Edit</a>
+                            <form method="post" action="/manage/deleteexperience/@x.Id">
+                                @Html.AntiForgeryToken()
+                                <button class="btn btn-danger" type="submit" onclick="return confirm('Delete this experience item?')">Delete</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div style="margin-top:12px;">
+        <a class="btn" href="/admin">Back</a>
+    </div>
+</div>

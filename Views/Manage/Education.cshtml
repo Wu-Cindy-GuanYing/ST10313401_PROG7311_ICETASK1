@@ -1,0 +1,45 @@
+﻿@model List<OnlineCv.Models.EducationItem>
+@{
+    ViewData["Title"] = "Education";
+}
+
+<div class="container">
+    <div class="actions" style="justify-content:space-between;">
+        <h1>Education</h1>
+        <a class="btn btn-primary" href="/manage/addeducation">Add Education</a>
+    </div>
+
+    <table class="table" style="margin-top:12px;">
+        <thead>
+            <tr>
+                <th>Degree / Institution</th>
+                <th>Grad</th>
+                <th>Highlights</th>
+                <th style="width:180px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model)
+            {
+                <tr>
+                    <td><strong>@e.Degree</strong><div class="help">@e.Institution</div></td>
+                    <td>@e.ExpectedGraduation</td>
+                    <td>@e.Highlights</td>
+                    <td>
+                        <div class="actions">
+                            <a class="btn" href="/manage/editeducation/@e.Id">Edit</a>
+                            <form method="post" action="/manage/deleteeducation/@e.Id">
+                                @Html.AntiForgeryToken()
+                                <button class="btn btn-danger" type="submit" onclick="return confirm('Delete this education item?')">Delete</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div style="margin-top:12px;">
+        <a class="btn" href="/admin">Back</a>
+    </div>
+</div>

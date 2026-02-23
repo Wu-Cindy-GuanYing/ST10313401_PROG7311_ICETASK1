@@ -1,0 +1,43 @@
+﻿@model List<OnlineCv.Models.VolunteerItem>
+@{
+    ViewData["Title"] = "Volunteering / Leadership";
+}
+
+<div class="container">
+    <div class="actions" style="justify-content:space-between;">
+        <h1>Volunteering / Leadership</h1>
+        <a class="btn btn-primary" href="/manage/addvolunteer">Add Item</a>
+    </div>
+
+    <table class="table" style="margin-top:12px;">
+        <thead>
+            <tr>
+                <th>Title / Org</th>
+                <th>Description</th>
+                <th style="width:180px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var v in Model)
+            {
+                <tr>
+                    <td><strong>@v.Title</strong><div class="help">@v.Org</div></td>
+                    <td>@v.Description</td>
+                    <td>
+                        <div class="actions">
+                            <a class="btn" href="/manage/editvolunteer/@v.Id">Edit</a>
+                            <form method="post" action="/manage/deletevolunteer/@v.Id">
+                                @Html.AntiForgeryToken()
+                                <button class="btn btn-danger" type="submit" onclick="return confirm('Delete this item?')">Delete</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div style="margin-top:12px;">
+        <a class="btn" href="/admin">Back</a>
+    </div>
+</div>

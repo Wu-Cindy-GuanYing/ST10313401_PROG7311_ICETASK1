@@ -1,0 +1,32 @@
+﻿@model OnlineCv.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Admin Login";
+}
+
+<div class="container">
+    <h1>Admin Login</h1>
+
+    <form method="post" class="form">
+        @Html.AntiForgeryToken()
+
+        <label>Email</label>
+        <input class="input" asp-for="Email" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Email)</span>
+
+        <label>Password</label>
+        <input class="input" asp-for="Password" type="password" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Password)</span>
+
+        <input type="hidden" asp-for="ReturnUrl" />
+
+        <button class="btn btn-primary" type="submit">Login</button>
+
+        <div class="help">
+            Default seed credentials are in <code>SeedData.cs</code>. Change them immediately.
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

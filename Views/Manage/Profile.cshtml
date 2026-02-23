@@ -1,0 +1,84 @@
+﻿@model OnlineCv.Models.CvProfile
+@{
+    ViewData["Title"] = "Edit Profile";
+}
+
+<div class="container">
+    <h1>Edit Profile</h1>
+
+    @if (TempData["ok"] != null)
+    {
+        <div class="ok">@TempData["ok"]</div>
+    }
+    @if (TempData["err"] != null)
+    {
+        <div class="err">@TempData["err"]</div>
+    }
+
+    <div class="card" style="margin-top:12px;">
+        <h2 style="margin-top:0;">Avatar</h2>
+
+        <div class="hero">
+            <div class="avatar">
+                @if (!string.IsNullOrWhiteSpace(Model.PhotoUrl))
+                {
+                    <img src="@Model.PhotoUrl" alt="Avatar" />
+                }
+            </div>
+
+            <form method="post" action="/manage/uploadavatar" enctype="multipart/form-data" class="form" style="max-width:520px;">
+                @Html.AntiForgeryToken()
+                <input class="input" type="file" name="avatar" accept="image/jpeg,image/png,image/webp" />
+                <div class="help">Max 2MB. JPG/PNG/WebP. Stored publicly at /uploads/.</div>
+                <button class="btn btn-primary" type="submit">Upload</button>
+            </form>
+        </div>
+
+        <div class="help" style="margin-top:10px;">
+            Alternatively you can paste a hosted image URL in “PhotoUrl” below.
+        </div>
+    </div>
+
+    <form class="form" method="post" style="margin-top:14px;">
+        @Html.AntiForgeryToken()
+
+        <label>Full Name</label>
+        <input class="input" asp-for="FullName" />
+        <span class="help">@Html.ValidationMessageFor(m => m.FullName)</span>
+
+        <label>Professional Title (Hero)</label>
+        <input class="input" asp-for="ProfessionalTitle" />
+        <span class="help">@Html.ValidationMessageFor(m => m.ProfessionalTitle)</span>
+
+        <label>Photo URL (optional)</label>
+        <input class="input" asp-for="PhotoUrl" />
+        <div class="help">Example: /uploads/avatar_xxx.jpg or https://…</div>
+
+        <label>About Me</label>
+        <textarea class="input" asp-for="AboutMe"></textarea>
+        <span class="help">@Html.ValidationMessageFor(m => m.AboutMe)</span>
+
+        <label>Email</label>
+        <input class="input" asp-for="Email" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Email)</span>
+
+        <label>LinkedIn URL</label>
+        <input class="input" asp-for="LinkedInUrl" />
+
+        <label>GitHub URL</label>
+        <input class="input" asp-for="GitHubUrl" />
+
+        <label>Region (City/Country only)</label>
+        <input class="input" asp-for="Region" />
+        <div class="help">Do NOT add street address, ID/passport, DOB.</div>
+
+        <div class="actions">
+            <button class="btn btn-primary" type="submit">Save</button>
+            <a class="btn" href="/admin">Back</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

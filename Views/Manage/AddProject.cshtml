@@ -1,0 +1,43 @@
+﻿@model OnlineCv.Models.ProjectItem
+@{
+    ViewData["Title"] = "Add Project";
+}
+
+<div class="container">
+    <h1>Add Project</h1>
+
+    <form method="post" class="form">
+        @Html.AntiForgeryToken()
+
+        <label>Name</label>
+        <input class="input" asp-for="Name" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Name)</span>
+
+        <label>Description</label>
+        <textarea class="input" asp-for="Description"></textarea>
+        <span class="help">@Html.ValidationMessageFor(m => m.Description)</span>
+
+        <label>Tech stack</label>
+        <input class="input" asp-for="TechStack" placeholder="ASP.NET Core, EF Core, SQLite" />
+        <span class="help">@Html.ValidationMessageFor(m => m.TechStack)</span>
+
+        <label>GitHub URL</label>
+        <input class="input" asp-for="GitHubUrl" placeholder="https://github.com/you/repo" />
+        <span class="help">@Html.ValidationMessageFor(m => m.GitHubUrl)</span>
+
+        <label>Live demo URL (optional)</label>
+        <input class="input" asp-for="LiveDemoUrl" placeholder="https://your-demo-site" />
+
+        <label>Screenshot URL (optional)</label>
+        <input class="input" asp-for="ScreenshotUrl" placeholder="/images/project1.png or https://…" />
+
+        <div class="actions">
+            <button class="btn btn-primary" type="submit">Create</button>
+            <a class="btn" href="/manage/projects">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

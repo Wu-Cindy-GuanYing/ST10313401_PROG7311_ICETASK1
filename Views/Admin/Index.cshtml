@@ -1,12 +1,23 @@
 ﻿@{
     ViewData["Title"] = "Admin";
 }
-<div style="max-width:900px;margin:0 auto;padding:24px;">
+
+<div class="container">
     <h1>Admin Dashboard</h1>
-    <ul>
-        <li><a href="/manage/profile">Edit Profile</a></li>
-        <li><a href="/manage/skills">Manage Skills</a></li>
-        <li><a href="/manage/projects">Manage Projects</a></li>
-        <li><a href="/public">View Public CV</a></li>
-    </ul>
+
+    <div class="notice">
+        <strong>Tip:</strong> Keep headings standard (Skills, Education, Experience, Projects) for ATS.
+    </div>
+
+    <div class="grid">
+        <a class="card" href="/manage/profile">Edit Profile</a>
+        <a class="card" href="/manage/skills">Skills</a>
+        <a class="card" href="/manage/projects">Projects</a>
+        <a class="card" href="/manage/education">Education</a>
+        <a class="card" href="/manage/experience">Experience</a>
+        <a class="card" href="/manage/certifications">Certifications</a>
+        <a class="card" href="/manage/volunteering">Volunteering / Leadership</a>
+        <a class="card" href="/manage/interests">Interests</a>
+        <a class="card" href="/">View Public CV</a>
+    </div>
 </div>

@@ -1,0 +1,35 @@
+﻿@model OnlineCv.Models.EducationItem
+@{
+    ViewData["Title"] = "Add Education";
+}
+
+<div class="container">
+    <h1>Add Education</h1>
+
+    <form method="post" class="form">
+        @Html.AntiForgeryToken()
+
+        <label>Degree</label>
+        <input class="input" asp-for="Degree" placeholder="BSc in Information Technology" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Degree)</span>
+
+        <label>Institution</label>
+        <input class="input" asp-for="Institution" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Institution)</span>
+
+        <label>Expected Graduation (optional)</label>
+        <input class="input" asp-for="ExpectedGraduation" placeholder="2026" />
+
+        <label>Highlights / Modules (optional)</label>
+        <textarea class="input" asp-for="Highlights" placeholder="Relevant modules: Data Structures, Databases, ..."></textarea>
+
+        <div class="actions">
+            <button class="btn btn-primary" type="submit">Create</button>
+            <a class="btn" href="/manage/education">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

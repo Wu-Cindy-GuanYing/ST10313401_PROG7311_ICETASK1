@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CTyhG0Htet0=",
+  "dgSpecHash": "HyHw4jW9xvI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\CV_Online_ST10313401.csproj",
+  "projectFilePath": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\CV_Online_ST10313401.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lab_services_student\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\lab_services_student\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.3\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.3.nupkg.sha512",

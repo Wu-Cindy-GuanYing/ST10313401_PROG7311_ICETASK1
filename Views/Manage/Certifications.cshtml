@@ -1,0 +1,52 @@
+﻿@model List<OnlineCv.Models.CertificationItem>
+@{
+    ViewData["Title"] = "Certifications";
+}
+
+<div class="container">
+    <div class="actions" style="justify-content:space-between;">
+        <h1>Certifications</h1>
+        <a class="btn btn-primary" href="/manage/addcertification">Add Certification</a>
+    </div>
+
+    <table class="table" style="margin-top:12px;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Issuer</th>
+                <th>Year</th>
+                <th>Link</th>
+                <th style="width:180px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td><strong>@c.Name</strong></td>
+                    <td>@c.Issuer</td>
+                    <td>@c.Year</td>
+                    <td>
+                        @if (!string.IsNullOrWhiteSpace(c.Url))
+                        {
+                            <a href="@c.Url" target="_blank" rel="noopener">Link</a>
+                        }
+                    </td>
+                    <td>
+                        <div class="actions">
+                            <a class="btn" href="/manage/editcertification/@c.Id">Edit</a>
+                            <form method="post" action="/manage/deletecertification/@c.Id">
+                                @Html.AntiForgeryToken()
+                                <button class="btn btn-danger" type="submit" onclick="return confirm('Delete this certification?')">Delete</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div style="margin-top:12px;">
+        <a class="btn" href="/admin">Back</a>
+    </div>
+</div>

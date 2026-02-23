@@ -1,0 +1,29 @@
+﻿@model OnlineCv.Models.SkillGroup
+@{
+    ViewData["Title"] = "Add Skill Group";
+}
+
+<div class="container">
+    <h1>Add Skill Group</h1>
+
+    <form method="post" class="form">
+        @Html.AntiForgeryToken()
+
+        <label>Title</label>
+        <input class="input" asp-for="Title" placeholder="Languages" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Title)</span>
+
+        <label>Tags (comma-separated)</label>
+        <textarea class="input" asp-for="TagsCsv" placeholder="C#, Java, Python"></textarea>
+        <span class="help">@Html.ValidationMessageFor(m => m.TagsCsv)</span>
+
+        <div class="actions">
+            <button class="btn btn-primary" type="submit">Create</button>
+            <a class="btn" href="/manage/skills">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

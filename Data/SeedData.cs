@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using OnlineCv.Models;
+using CV_Online_ST10313401.Models;
 
-namespace OnlineCv.Data;
+namespace CV_Online_ST10313401.Data;
 
 public static class SeedData
 {

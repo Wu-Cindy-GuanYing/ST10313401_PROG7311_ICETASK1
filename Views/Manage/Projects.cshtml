@@ -1,0 +1,48 @@
+﻿@model List<OnlineCv.Models.ProjectItem>
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<div class="container">
+    <div class="actions" style="justify-content:space-between;">
+        <h1>Projects</h1>
+        <a class="btn btn-primary" href="/manage/addproject">Add Project</a>
+    </div>
+
+    <table class="table" style="margin-top:12px;">
+        <thead>
+            <tr>
+                <th>Project</th>
+                <th>Tech</th>
+                <th>Repo</th>
+                <th style="width:180px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>
+                        <strong>@p.Name</strong>
+                        <div class="help">@p.Description</div>
+                    </td>
+                    <td>@p.TechStack</td>
+                    <td><a href="@p.GitHubUrl" target="_blank" rel="noopener">Link</a></td>
+                    <td>
+                        <div class="actions">
+                            <a class="btn" href="/manage/editproject/@p.Id">Edit</a>
+                            <form method="post" action="/manage/deleteproject/@p.Id">
+                                @Html.AntiForgeryToken()
+                                <button class="btn btn-danger" type="submit" onclick="return confirm('Delete this project?')">Delete</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div style="margin-top:12px;">
+        <a class="btn" href="/admin">Back</a>
+    </div>
+</div>

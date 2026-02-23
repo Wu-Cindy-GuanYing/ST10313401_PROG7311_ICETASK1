@@ -1,0 +1,44 @@
+﻿@model OnlineCv.Models.ProjectItem
+@{
+    ViewData["Title"] = "Edit Project";
+}
+
+<div class="container">
+    <h1>Edit Project</h1>
+
+    <form method="post" class="form">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+
+        <label>Name</label>
+        <input class="input" asp-for="Name" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Name)</span>
+
+        <label>Description</label>
+        <textarea class="input" asp-for="Description"></textarea>
+        <span class="help">@Html.ValidationMessageFor(m => m.Description)</span>
+
+        <label>Tech stack</label>
+        <input class="input" asp-for="TechStack" />
+        <span class="help">@Html.ValidationMessageFor(m => m.TechStack)</span>
+
+        <label>GitHub URL</label>
+        <input class="input" asp-for="GitHubUrl" />
+        <span class="help">@Html.ValidationMessageFor(m => m.GitHubUrl)</span>
+
+        <label>Live demo URL (optional)</label>
+        <input class="input" asp-for="LiveDemoUrl" />
+
+        <label>Screenshot URL (optional)</label>
+        <input class="input" asp-for="ScreenshotUrl" />
+
+        <div class="actions">
+            <button class="btn btn-primary" type="submit">Save</button>
+            <a class="btn" href="/manage/projects">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

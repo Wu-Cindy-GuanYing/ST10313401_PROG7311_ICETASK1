@@ -1,0 +1,32 @@
+﻿@model OnlineCv.Models.VolunteerItem
+@{
+    ViewData["Title"] = "Edit Volunteering / Leadership";
+}
+
+<div class="container">
+    <h1>Edit Volunteering / Leadership</h1>
+
+    <form method="post" class="form">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+
+        <label>Title</label>
+        <input class="input" asp-for="Title" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Title)</span>
+
+        <label>Organisation (optional)</label>
+        <input class="input" asp-for="Org" />
+
+        <label>Description (optional)</label>
+        <textarea class="input" asp-for="Description"></textarea>
+
+        <div class="actions">
+            <button class="btn btn-primary" type="submit">Save</button>
+            <a class="btn" href="/manage/volunteering">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

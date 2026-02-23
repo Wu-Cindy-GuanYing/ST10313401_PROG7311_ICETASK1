@@ -1,0 +1,44 @@
+﻿@model List<OnlineCv.Models.SkillGroup>
+@{
+    ViewData["Title"] = "Skills";
+}
+<div class="container">
+    <div class="actions" style="justify-content:space-between;">
+        <h1>Skills</h1>
+        <a class="btn btn-primary" href="/manage/addskill">Add Skill Group</a>
+    </div>
+
+    <div class="help">Example groups: Languages / Frameworks / Tools / Soft Skills</div>
+
+    <table class="table" style="margin-top:12px;">
+        <thead>
+            <tr>
+                <th>Group</th>
+                <th>Tags</th>
+                <th style="width:180px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td><strong>@s.Title</strong></td>
+                    <td>@s.TagsCsv</td>
+                    <td>
+                        <div class="actions">
+                            <a class="btn" href="/manage/editskill/@s.Id">Edit</a>
+                            <form method="post" action="/manage/deleteskill/@s.Id">
+                                @Html.AntiForgeryToken()
+                                <button class="btn btn-danger" type="submit" onclick="return confirm('Delete this skill group?')">Delete</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div style="margin-top:12px;">
+        <a class="btn" href="/admin">Back</a>
+    </div>
+</div>

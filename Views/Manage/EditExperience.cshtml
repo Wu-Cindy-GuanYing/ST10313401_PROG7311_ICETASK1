@@ -1,0 +1,36 @@
+﻿@model OnlineCv.Models.ExperienceItem
+@{
+    ViewData["Title"] = "Edit Experience";
+}
+
+<div class="container">
+    <h1>Edit Experience</h1>
+
+    <form method="post" class="form">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+
+        <label>Role</label>
+        <input class="input" asp-for="Role" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Role)</span>
+
+        <label>Company</label>
+        <input class="input" asp-for="Company" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Company)</span>
+
+        <label>Date Range (optional)</label>
+        <input class="input" asp-for="DateRange" />
+
+        <label>Bullets (optional, one per line)</label>
+        <textarea class="input" asp-for="Bullets"></textarea>
+
+        <div class="actions">
+            <button class="btn btn-primary" type="submit">Save</button>
+            <a class="btn" href="/manage/experience">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

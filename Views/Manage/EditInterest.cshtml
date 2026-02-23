@@ -1,0 +1,26 @@
+﻿@model OnlineCv.Models.InterestItem
+@{
+    ViewData["Title"] = "Edit Interest";
+}
+
+<div class="container">
+    <h1>Edit Interest</h1>
+
+    <form method="post" class="form">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+
+        <label>Text</label>
+        <input class="input" asp-for="Text" />
+        <span class="help">@Html.ValidationMessageFor(m => m.Text)</span>
+
+        <div class="actions">
+            <button class="btn btn-primary" type="submit">Save</button>
+            <a class="btn" href="/manage/interests">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

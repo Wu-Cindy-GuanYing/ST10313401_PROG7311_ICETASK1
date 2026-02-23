@@ -1,13 +1,13 @@
 using CV_Online_ST10313401.Data;
+using CV_Online_ST10313401.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using OnlineCv.Services;
 
 namespace CV_Online_ST10313401
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -59,7 +59,6 @@ namespace CV_Online_ST10313401
             app.UseAuthentication();
             app.UseAuthorization();
 
-            // Public CV
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Public}/{action=Index}/{id?}");
