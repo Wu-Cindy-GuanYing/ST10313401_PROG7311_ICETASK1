@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace OnlineCv.Models;
+namespace CV_Online_ST10313401.Models;
 
 public class EducationItem
 {

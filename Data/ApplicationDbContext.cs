@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using OnlineCv.Models;
+using CV_Online_ST10313401.Models;
 
-namespace OnlineCv.Data;
+namespace CV_Online_ST10313401.Data;
 
 public class ApplicationDbContext : IdentityDbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
+    // your CV tables:
     public DbSet<CvProfile> Profiles => Set<CvProfile>();
     public DbSet<SkillGroup> SkillGroups => Set<SkillGroup>();
     public DbSet<ProjectItem> Projects => Set<ProjectItem>();

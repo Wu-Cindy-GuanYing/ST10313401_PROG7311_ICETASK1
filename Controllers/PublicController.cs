@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OnlineCv.Data;
-using OnlineCv.Models;
-using OnlineCv.Services;
+using CV_Online_ST10313401.Data;
+using CV_Online_ST10313401.Models;
+using CV_Online_ST10313401.Services;
 
-namespace OnlineCv.Controllers;
+namespace CV_Online_ST10313401.Controllers;
 
 public class PublicController : Controller
 {

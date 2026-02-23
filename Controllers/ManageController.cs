@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OnlineCv.Data;
-using OnlineCv.Models;
+using CV_Online_ST10313401.Data;
+using CV_Online_ST10313401.Models;
 
-namespace OnlineCv.Controllers;
+namespace CV_Online_ST10313401.Controllers;
 
 [Authorize(Roles = "Admin")]
 public class ManageController : Controller

@@ -1,0 +1,41 @@
+# syntax=docker/dockerfile:1
+
+# --------------------------
+# Build stage
+# --------------------------
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /src
+
+# Copy csproj and restore as distinct layers
+# IMPORTANT: update the path/name if your .csproj file differs
+COPY ["CV_Online_ST10313401.csproj", "./"]
+RUN dotnet restore "./CV_Online_ST10313401.csproj"
+
+# Copy everything else and publish
+COPY . .
+RUN dotnet publish "./CV_Online_ST10313401.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+# --------------------------
+# Runtime stage
+# --------------------------
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
+WORKDIR /app
+
+# Render sets $PORT; ASP.NET must listen on that port and on 0.0.0.0
+ENV ASPNETCORE_URLS=http://0.0.0.0:${PORT}
+ENV ASPNETCORE_ENVIRONMENT=Production
+
+COPY --from=build /app/publish ./
+
+# If you use SQLite and want the DB file to persist, Render needs a persistent disk
+# and you should store the DB in /var/data. This just creates the folder.
+RUN mkdir -p /var/data
+
+# Optional: if you want to force SQLite db path to persistent disk,
+# set your connection string in Render Environment Variables instead:
+# ConnectionStrings__DefaultConnection=Data Source=/var/data/cv.db
+
+EXPOSE 10000
+
+# IMPORTANT: update the dll name if your assembly name differs
+ENTRYPOINT ["dotnet", "CV_Online_ST10313401.dll"]

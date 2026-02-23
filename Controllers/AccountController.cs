@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using OnlineCv.Models;
+using CV_Online_ST10313401.Models;
 
-namespace OnlineCv.Controllers;
+namespace CV_Online_ST10313401.Controllers;
 
 public class AccountController : Controller
 {

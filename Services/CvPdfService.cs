@@ -1,9 +1,9 @@
-﻿using OnlineCv.Models;
+﻿using CV_Online_ST10313401.Models;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 
-namespace OnlineCv.Services;
+namespace CV_Online_ST10313401.Services;
 
 public class CvPdfService
 {
