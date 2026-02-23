@@ -1,0 +1,374 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\views\\public\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\public\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\services\\cvpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:services\\cvpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\cv_online_st10313401.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:cv_online_st10313401.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\controllers\\publiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\publiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\models\\publiccvviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\publiccvviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\models\\interestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\interestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\models\\volunteeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\volunteeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\models\\certificationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\certificationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\models\\experienceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\experienceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\models\\educationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\educationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\models\\projectitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\projectitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\models\\skillgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\skillgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\models\\cvprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\cvprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\source\\repos\\cv_online_st10313401\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABQAAAAAZ2ZmZuYfwCQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:09:21.345Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T16:32:26.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Views\\Public\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Public\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Views\\Public\\Index.cshtml",
+              "RelativeToolTip": "Views\\Public\\Index.cshtml",
+              "ViewState": "AgIAACsAAAAAaWZmZmYKwH4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T16:31:44.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CvPdfService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Services\\CvPdfService.cs",
+              "RelativeDocumentMoniker": "Services\\CvPdfService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Services\\CvPdfService.cs",
+              "RelativeToolTip": "Services\\CvPdfService.cs",
+              "ViewState": "AgIAAFIAAAB4mZmZmZkuwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:28:21.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:27:27.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAoAAABAMzMzMzM6wCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:25:49.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManageController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "Controllers\\ManageController.cs",
+              "ViewState": "AgIAAGoAAABAAAAAAIASwHUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:22:09.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:10:18.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:20:58.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CV_Online_ST10313401.csproj",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\CV_Online_ST10313401.csproj",
+              "RelativeDocumentMoniker": "CV_Online_ST10313401.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\CV_Online_ST10313401.csproj",
+              "RelativeToolTip": "CV_Online_ST10313401.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-20T15:58:41.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PublicController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Controllers\\PublicController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PublicController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Controllers\\PublicController.cs",
+              "RelativeToolTip": "Controllers\\PublicController.cs",
+              "ViewState": "AgIAAB4AAACAmZmZmRktwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:20:22.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PublicCvViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\PublicCvViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PublicCvViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\PublicCvViewModel.cs",
+              "RelativeToolTip": "Models\\PublicCvViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:19:34.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InterestItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\InterestItem.cs",
+              "RelativeDocumentMoniker": "Models\\InterestItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\InterestItem.cs",
+              "RelativeToolTip": "Models\\InterestItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:18:55.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VolunteerItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\VolunteerItem.cs",
+              "RelativeDocumentMoniker": "Models\\VolunteerItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\VolunteerItem.cs",
+              "RelativeToolTip": "Models\\VolunteerItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:18:31.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CertificationItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\CertificationItem.cs",
+              "RelativeDocumentMoniker": "Models\\CertificationItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\CertificationItem.cs",
+              "RelativeToolTip": "Models\\CertificationItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:18:06.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExperienceItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\ExperienceItem.cs",
+              "RelativeDocumentMoniker": "Models\\ExperienceItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\ExperienceItem.cs",
+              "RelativeToolTip": "Models\\ExperienceItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:17:41.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EducationItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\EducationItem.cs",
+              "RelativeDocumentMoniker": "Models\\EducationItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\EducationItem.cs",
+              "RelativeToolTip": "Models\\EducationItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:17:16.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProjectItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\ProjectItem.cs",
+              "RelativeDocumentMoniker": "Models\\ProjectItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\ProjectItem.cs",
+              "RelativeToolTip": "Models\\ProjectItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:16:49.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SkillGroup.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\SkillGroup.cs",
+              "RelativeDocumentMoniker": "Models\\SkillGroup.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\SkillGroup.cs",
+              "RelativeToolTip": "Models\\SkillGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:16:23.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CvProfile.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\CvProfile.cs",
+              "RelativeDocumentMoniker": "Models\\CvProfile.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Models\\CvProfile.cs",
+              "RelativeToolTip": "Models\\CvProfile.cs",
+              "ViewState": "AgIAAAMAAADwmZmZmZkLwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:15:51.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:15:11.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CV_Online_ST10313401\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-20T16:13:46.9Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+C:\Users\lab_services_student\source\repos\CV_Online_ST10313401\obj\Debug\net10.0\CV_Online_ST10313401.csproj.AssemblyReference.cache
+C:\Users\lab_services_student\source\repos\CV_Online_ST10313401\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\lab_services_student\source\repos\CV_Online_ST10313401\obj\Debug\net10.0\CV_Online_ST10313401.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\source\repos\CV_Online_ST10313401\obj\Debug\net10.0\CV_Online_ST10313401.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\source\repos\CV_Online_ST10313401\obj\Debug\net10.0\CV_Online_ST10313401.AssemblyInfo.cs
+C:\Users\lab_services_student\source\repos\CV_Online_ST10313401\obj\Debug\net10.0\CV_Online_ST10313401.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\source\repos\CV_Online_ST10313401\obj\Debug\net10.0\CV_Online_ST10313401.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lab_services_student\source\repos\CV_Online_ST10313401\obj\Debug\net10.0\CV_Online_ST10313401.RazorAssemblyInfo.cache
+C:\Users\lab_services_student\source\repos\CV_Online_ST10313401\obj\Debug\net10.0\CV_Online_ST10313401.RazorAssemblyInfo.cs
