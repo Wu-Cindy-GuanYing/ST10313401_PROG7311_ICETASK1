@@ -3,25 +3,30 @@
     ViewData["Title"] = "Add Skill Group";
 }
 
-<div class="container">
-    <h1>Add Skill Group</h1>
+<div class="stack">
+    <section class="card">
+        <h1>Add Skill Group</h1>
+        <p>Comma-separated tags. Example: <span class="badge">C#, Java, Python</span></p>
+    </section>
 
-    <form method="post" class="form">
-        @Html.AntiForgeryToken()
+    <section class="card">
+        <form method="post" class="form">
+            @Html.AntiForgeryToken()
 
-        <label>Title</label>
-        <input class="input" asp-for="Title" placeholder="Languages" />
-        <span class="help">@Html.ValidationMessageFor(m => m.Title)</span>
+            <label>Title</label>
+            <input class="input" asp-for="Title" placeholder="Languages" />
+            <div class="help">@Html.ValidationMessageFor(m => m.Title)</div>
 
-        <label>Tags (comma-separated)</label>
-        <textarea class="input" asp-for="TagsCsv" placeholder="C#, Java, Python"></textarea>
-        <span class="help">@Html.ValidationMessageFor(m => m.TagsCsv)</span>
+            <label>Tags (comma-separated)</label>
+            <textarea class="input" asp-for="TagsCsv" placeholder="C#, Java, Python"></textarea>
+            <div class="help">@Html.ValidationMessageFor(m => m.TagsCsv)</div>
 
-        <div class="actions">
-            <button class="btn btn-primary" type="submit">Create</button>
-            <a class="btn" href="/manage/skills">Cancel</a>
-        </div>
-    </form>
+            <div class="actions">
+                <button class="btn btn-primary" type="submit">Create</button>
+                <a class="btn" href="/manage/skills">Cancel</a>
+            </div>
+        </form>
+    </section>
 </div>
 
 @section Scripts {

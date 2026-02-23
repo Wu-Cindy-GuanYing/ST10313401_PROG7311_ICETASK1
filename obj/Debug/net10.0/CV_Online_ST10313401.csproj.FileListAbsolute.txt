@@ -190,7 +190,6 @@ C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\
 C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\scopedcss\bundle\CV_Online_ST10313401.styles.css
 C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\scopedcss\projectbundle\CV_Online_ST10313401.bundle.scp.css
-C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\compressed\0oe253rmnk-{0}-az7wjqduk2-az7wjqduk2.gz
 C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\compressed\w2pxty0gns-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\compressed\u3iicf1n1k-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\compressed\emhhc75m6b-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -265,4 +264,5 @@ C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\
 C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\CV_Online_ST10313401.pdb
 C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\CV_Online_ST10313401.genruntimeconfig.cache
 C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\ref\CV_Online_ST10313401.dll
+C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\compressed\0oe253rmnk-{0}-3z580g2l8s-3z580g2l8s.gz
 C:\Users\lab_services_student\Documents\GitHub\ST10313401_PROG7311_ICETASK1\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

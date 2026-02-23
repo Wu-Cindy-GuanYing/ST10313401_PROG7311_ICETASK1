@@ -18,8 +18,8 @@ public static class SeedData
         if (!await roleManager.RoleExistsAsync(adminRole))
             await roleManager.CreateAsync(new IdentityRole(adminRole));
 
-        var adminEmail = "admin@yourcv.com";
-        var adminPassword = "ChangeMe123!";
+        var adminEmail = "st10313401@myemeris.edu.za";
+        var adminPassword = "ST10313401@";
 
         var adminUser = await userManager.FindByEmailAsync(adminEmail);
         if (adminUser == null)
@@ -30,19 +30,20 @@ public static class SeedData
                 await userManager.AddToRoleAsync(adminUser, adminRole);
         }
 
-        // Create a default CV profile (single-profile app)
         if (!await db.Profiles.AnyAsync())
         {
             db.Profiles.Add(new CvProfile
             {
-                FullName = "Your Name",
+                Id = 1,
+                FullName = "Cindy Wu",
                 ProfessionalTitle = "Final-Year IT Student · Aspiring Software Developer",
-                AboutMe = "I’m a final-year IT student focused on building practical software. I enjoy backend development and clean UI. I’m passionate about learning and shipping useful tools.",
-                Email = "you@email.com",
+                AboutMe = "I’m a final-year IT student focused on building reliable software...",
+                Email = "st10313401@myemeris.edu.za",
                 LinkedInUrl = "https://www.linkedin.com/in/yourprofile",
                 GitHubUrl = "https://github.com/yourname",
-                Region = "South Africa"
+                Region = "Johannesburg, South Africa"
             });
+
             await db.SaveChangesAsync();
         }
     }

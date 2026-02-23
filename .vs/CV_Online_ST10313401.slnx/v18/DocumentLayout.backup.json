@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\cv_online_st10313401.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:cv_online_st10313401.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +19,64 @@
       "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\models\\certificationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\certificationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\public\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\public\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\controllers\\publiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\publiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\manage\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\manage\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\manage\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\manage\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\manage\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\manage\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\manage\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\manage\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\public\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\public\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\manage\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\manage\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\manage\\editskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -111,28 +155,8 @@
       "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\manage\\editinterest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\account\\denied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\account\\denied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\models\\volunteeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,16 +171,8 @@
       "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\publiccvviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\controllers\\publiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\publiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\models\\projectitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\projectitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\models\\interestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -179,14 +195,6 @@
       "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:services\\cvpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\models\\certificationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:models\\certificationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|c:\\users\\lab_services_student\\documents\\github\\st10313401_prog7311_icetask1\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC6A39E-8726-21E5-8312-E5718D031553}|CV_Online_ST10313401.csproj|solutionrelative:controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -198,583 +206,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Projects.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Projects.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\Projects.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Projects.cshtml",
-              "RelativeToolTip": "Views\\Manage\\Projects.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:38:17.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditSkill.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditSkill.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\EditSkill.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditSkill.cshtml",
-              "RelativeToolTip": "Views\\Manage\\EditSkill.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:37:44.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddSkill.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddSkill.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\AddSkill.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddSkill.cshtml",
-              "RelativeToolTip": "Views\\Manage\\AddSkill.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:36:48.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Skills.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Skills.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\Skills.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Skills.cshtml",
-              "RelativeToolTip": "Views\\Manage\\Skills.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:36:16.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Profile.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Profile.cshtml",
-              "RelativeToolTip": "Views\\Manage\\Profile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:35:45.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Public\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Public\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Public\\Index.cshtml",
-              "RelativeToolTip": "Views\\Public\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:28:33.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:28:45.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Data\\SeedData.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Data\\SeedData.cs",
               "RelativeToolTip": "Data\\SeedData.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T13:29:09.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:27:52.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwEwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:27:57.382Z",
+              "WhenOpened": "2026-02-23T13:28:45.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-23T13:56:45.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddProject.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddProject.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\AddProject.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddProject.cshtml",
-              "RelativeToolTip": "Views\\Manage\\AddProject.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:38:43.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EditProject.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditProject.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\EditProject.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditProject.cshtml",
-              "RelativeToolTip": "Views\\Manage\\EditProject.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:39:06.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Education.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Education.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\Education.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Education.cshtml",
-              "RelativeToolTip": "Views\\Manage\\Education.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:39:31.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddEducation.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddEducation.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\AddEducation.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddEducation.cshtml",
-              "RelativeToolTip": "Views\\Manage\\AddEducation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:39:56.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EditEducation.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditEducation.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\EditEducation.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditEducation.cshtml",
-              "RelativeToolTip": "Views\\Manage\\EditEducation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:40:19.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Experience.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Experience.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\Experience.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Experience.cshtml",
-              "RelativeToolTip": "Views\\Manage\\Experience.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:40:42.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AddExperience.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddExperience.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\AddExperience.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddExperience.cshtml",
-              "RelativeToolTip": "Views\\Manage\\AddExperience.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:41:04.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EditExperience.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditExperience.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\EditExperience.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditExperience.cshtml",
-              "RelativeToolTip": "Views\\Manage\\EditExperience.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:41:27.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Certifications.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Certifications.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\Certifications.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Certifications.cshtml",
-              "RelativeToolTip": "Views\\Manage\\Certifications.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:41:52.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AddCertification.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddCertification.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\AddCertification.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddCertification.cshtml",
-              "RelativeToolTip": "Views\\Manage\\AddCertification.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:42:18.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EditCertification.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditCertification.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\EditCertification.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditCertification.cshtml",
-              "RelativeToolTip": "Views\\Manage\\EditCertification.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:42:44.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Volunteering.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Volunteering.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\Volunteering.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Volunteering.cshtml",
-              "RelativeToolTip": "Views\\Manage\\Volunteering.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:43:10.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AddVolunteer.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddVolunteer.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\AddVolunteer.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddVolunteer.cshtml",
-              "RelativeToolTip": "Views\\Manage\\AddVolunteer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:43:34.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EditVolunteer.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditVolunteer.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\EditVolunteer.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditVolunteer.cshtml",
-              "RelativeToolTip": "Views\\Manage\\EditVolunteer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:44:01.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Interests.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Interests.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\Interests.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Interests.cshtml",
-              "RelativeToolTip": "Views\\Manage\\Interests.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:44:25.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AddInterest.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddInterest.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\AddInterest.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddInterest.cshtml",
-              "RelativeToolTip": "Views\\Manage\\AddInterest.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:44:46.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EditInterest.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditInterest.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manage\\EditInterest.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditInterest.cshtml",
-              "RelativeToolTip": "Views\\Manage\\EditInterest.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:45:11.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:45:46.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:27:37.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Denied.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Account\\Denied.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Denied.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Account\\Denied.cshtml",
-              "RelativeToolTip": "Views\\Account\\Denied.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:46:05.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAALsAAAAAAAAAAAAkwNwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-23T13:31:18.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-23T13:30:27.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T13:30:02.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "VolunteerItem.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\VolunteerItem.cs",
-              "RelativeDocumentMoniker": "Models\\VolunteerItem.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\VolunteerItem.cs",
-              "RelativeToolTip": "Models\\VolunteerItem.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:29:18.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "SkillGroup.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\SkillGroup.cs",
-              "RelativeDocumentMoniker": "Models\\SkillGroup.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\SkillGroup.cs",
-              "RelativeToolTip": "Models\\SkillGroup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:29:14.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "PublicCvViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\PublicCvViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\PublicCvViewModel.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\PublicCvViewModel.cs",
-              "RelativeToolTip": "Models\\PublicCvViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:29:05.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "PublicController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\PublicController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PublicController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\PublicController.cs",
-              "RelativeToolTip": "Controllers\\PublicController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:28:54.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ProjectItem.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\ProjectItem.cs",
-              "RelativeDocumentMoniker": "Models\\ProjectItem.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\ProjectItem.cs",
-              "RelativeToolTip": "Models\\ProjectItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:28:50.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\LoginViewModel.cs",
-              "RelativeToolTip": "Models\\LoginViewModel.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:28:42.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "InterestItem.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\InterestItem.cs",
-              "RelativeDocumentMoniker": "Models\\InterestItem.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\InterestItem.cs",
-              "RelativeToolTip": "Models\\InterestItem.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:28:38.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ExperienceItem.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\ExperienceItem.cs",
-              "RelativeDocumentMoniker": "Models\\ExperienceItem.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\ExperienceItem.cs",
-              "RelativeToolTip": "Models\\ExperienceItem.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:28:28.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "EducationItem.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\EducationItem.cs",
-              "RelativeDocumentMoniker": "Models\\EducationItem.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\EducationItem.cs",
-              "RelativeToolTip": "Models\\EducationItem.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:28:24.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "CvProfile.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\CvProfile.cs",
-              "RelativeDocumentMoniker": "Models\\CvProfile.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\CvProfile.cs",
-              "RelativeToolTip": "Models\\CvProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:28:16.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "CvPdfService.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Services\\CvPdfService.cs",
-              "RelativeDocumentMoniker": "Services\\CvPdfService.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Services\\CvPdfService.cs",
-              "RelativeToolTip": "Services\\CvPdfService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:28:08.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 4,
               "Title": "CertificationItem.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\CertificationItem.cs",
               "RelativeDocumentMoniker": "Models\\CertificationItem.cs",
@@ -787,20 +275,533 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:27:52.335Z",
+              "WhenOpened": "2026-02-23T13:27:57.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CV_Online_ST10313401.csproj",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\CV_Online_ST10313401.csproj",
+              "RelativeDocumentMoniker": "CV_Online_ST10313401.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\CV_Online_ST10313401.csproj",
+              "RelativeToolTip": "CV_Online_ST10313401.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T14:25:31.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PublicController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\PublicController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PublicController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\PublicController.cs",
+              "RelativeToolTip": "Controllers\\PublicController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:28:54.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:45:46.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddSkill.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddSkill.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\AddSkill.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddSkill.cshtml",
+              "RelativeToolTip": "Views\\Manage\\AddSkill.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:36:48.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Skills.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Skills.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\Skills.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Skills.cshtml",
+              "RelativeToolTip": "Views\\Manage\\Skills.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:36:16.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:30:02.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "bootstrap-grid.css.map",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABVqwEAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-23T15:33:53.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEwBAAAAAAAAAAAkwG0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-23T13:31:18.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Public\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Public\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Public\\Index.cshtml",
+              "RelativeToolTip": "Views\\Public\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:28:33.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T13:56:45.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Manage\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:35:45.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:28:42.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:27:37.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditSkill.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditSkill.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\EditSkill.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditSkill.cshtml",
+              "RelativeToolTip": "Views\\Manage\\EditSkill.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:37:44.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Projects.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Projects.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\Projects.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Projects.cshtml",
+              "RelativeToolTip": "Views\\Manage\\Projects.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:38:17.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddProject.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddProject.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\AddProject.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddProject.cshtml",
+              "RelativeToolTip": "Views\\Manage\\AddProject.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:38:43.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditProject.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditProject.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\EditProject.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditProject.cshtml",
+              "RelativeToolTip": "Views\\Manage\\EditProject.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:39:06.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Education.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Education.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\Education.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Education.cshtml",
+              "RelativeToolTip": "Views\\Manage\\Education.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:39:31.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddEducation.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddEducation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\AddEducation.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddEducation.cshtml",
+              "RelativeToolTip": "Views\\Manage\\AddEducation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:39:56.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EditEducation.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditEducation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\EditEducation.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditEducation.cshtml",
+              "RelativeToolTip": "Views\\Manage\\EditEducation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:40:19.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Experience.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Experience.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\Experience.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Experience.cshtml",
+              "RelativeToolTip": "Views\\Manage\\Experience.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:40:42.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddExperience.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddExperience.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\AddExperience.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddExperience.cshtml",
+              "RelativeToolTip": "Views\\Manage\\AddExperience.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:41:04.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditExperience.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditExperience.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\EditExperience.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditExperience.cshtml",
+              "RelativeToolTip": "Views\\Manage\\EditExperience.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:41:27.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Certifications.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Certifications.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\Certifications.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Certifications.cshtml",
+              "RelativeToolTip": "Views\\Manage\\Certifications.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:41:52.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AddCertification.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddCertification.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\AddCertification.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddCertification.cshtml",
+              "RelativeToolTip": "Views\\Manage\\AddCertification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:42:18.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EditCertification.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditCertification.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\EditCertification.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditCertification.cshtml",
+              "RelativeToolTip": "Views\\Manage\\EditCertification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:42:44.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Volunteering.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Volunteering.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\Volunteering.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Volunteering.cshtml",
+              "RelativeToolTip": "Views\\Manage\\Volunteering.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:43:10.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddVolunteer.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddVolunteer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\AddVolunteer.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddVolunteer.cshtml",
+              "RelativeToolTip": "Views\\Manage\\AddVolunteer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:43:34.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EditVolunteer.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditVolunteer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\EditVolunteer.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditVolunteer.cshtml",
+              "RelativeToolTip": "Views\\Manage\\EditVolunteer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:44:01.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Interests.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Interests.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\Interests.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\Interests.cshtml",
+              "RelativeToolTip": "Views\\Manage\\Interests.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:44:25.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AddInterest.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddInterest.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\AddInterest.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\AddInterest.cshtml",
+              "RelativeToolTip": "Views\\Manage\\AddInterest.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:44:46.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EditInterest.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditInterest.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manage\\EditInterest.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Manage\\EditInterest.cshtml",
+              "RelativeToolTip": "Views\\Manage\\EditInterest.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:45:11.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Denied.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Account\\Denied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Denied.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Views\\Account\\Denied.cshtml",
+              "RelativeToolTip": "Views\\Account\\Denied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T13:46:05.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "VolunteerItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\VolunteerItem.cs",
+              "RelativeDocumentMoniker": "Models\\VolunteerItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\VolunteerItem.cs",
+              "RelativeToolTip": "Models\\VolunteerItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:29:18.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SkillGroup.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\SkillGroup.cs",
+              "RelativeDocumentMoniker": "Models\\SkillGroup.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\SkillGroup.cs",
+              "RelativeToolTip": "Models\\SkillGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:29:14.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PublicCvViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\PublicCvViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PublicCvViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\PublicCvViewModel.cs",
+              "RelativeToolTip": "Models\\PublicCvViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:29:05.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProjectItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\ProjectItem.cs",
+              "RelativeDocumentMoniker": "Models\\ProjectItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\ProjectItem.cs",
+              "RelativeToolTip": "Models\\ProjectItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:28:50.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "InterestItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\InterestItem.cs",
+              "RelativeDocumentMoniker": "Models\\InterestItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\InterestItem.cs",
+              "RelativeToolTip": "Models\\InterestItem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:28:38.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ExperienceItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\ExperienceItem.cs",
+              "RelativeDocumentMoniker": "Models\\ExperienceItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\ExperienceItem.cs",
+              "RelativeToolTip": "Models\\ExperienceItem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:28:28.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EducationItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\EducationItem.cs",
+              "RelativeDocumentMoniker": "Models\\EducationItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\EducationItem.cs",
+              "RelativeToolTip": "Models\\EducationItem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:28:24.117Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 46,
+              "Title": "CvProfile.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\CvProfile.cs",
+              "RelativeDocumentMoniker": "Models\\CvProfile.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Models\\CvProfile.cs",
+              "RelativeToolTip": "Models\\CvProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:28:16.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CvPdfService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Services\\CvPdfService.cs",
+              "RelativeDocumentMoniker": "Services\\CvPdfService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Services\\CvPdfService.cs",
+              "RelativeToolTip": "Services\\CvPdfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:28:08.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
               "Title": "ManageController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10313401_PROG7311_ICETASK1\\Controllers\\ManageController.cs",
               "RelativeDocumentMoniker": "Controllers\\ManageController.cs",
@@ -808,8 +809,7 @@
               "RelativeToolTip": "Controllers\\ManageController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:26:08.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T13:26:08.392Z"
             }
           ]
         }

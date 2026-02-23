@@ -2,43 +2,52 @@
 @{
     ViewData["Title"] = "Skills";
 }
-<div class="container">
-    <div class="actions" style="justify-content:space-between;">
-        <h1>Skills</h1>
-        <a class="btn btn-primary" href="/manage/addskill">Add Skill Group</a>
-    </div>
 
-    <div class="help">Example groups: Languages / Frameworks / Tools / Soft Skills</div>
+<div class="stack">
+    <section class="card">
+        <div class="row" style="justify-content:space-between; align-items:center;">
+            <div>
+                <h1>Skills</h1>
+                <p>Use clear groups (Languages / Frameworks / Tools / Soft Skills).</p>
+            </div>
+            <a class="btn btn-primary" href="/manage/addskill">Add</a>
+        </div>
+    </section>
 
-    <table class="table" style="margin-top:12px;">
-        <thead>
-            <tr>
-                <th>Group</th>
-                <th>Tags</th>
-                <th style="width:180px;">Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var s in Model)
-            {
+    <section class="card">
+        <table class="table">
+            <thead>
                 <tr>
-                    <td><strong>@s.Title</strong></td>
-                    <td>@s.TagsCsv</td>
-                    <td>
-                        <div class="actions">
-                            <a class="btn" href="/manage/editskill/@s.Id">Edit</a>
-                            <form method="post" action="/manage/deleteskill/@s.Id">
-                                @Html.AntiForgeryToken()
-                                <button class="btn btn-danger" type="submit" onclick="return confirm('Delete this skill group?')">Delete</button>
-                            </form>
-                        </div>
-                    </td>
+                    <th>Group</th>
+                    <th>Tags</th>
+                    <th style="width:220px;">Actions</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var s in Model)
+                {
+                    <tr>
+                        <td><strong>@s.Title</strong></td>
+                        <td>@s.TagsCsv</td>
+                        <td>
+                            <div class="actions">
+                                <a class="btn btn-small" href="/manage/editskill/@s.Id">Edit</a>
+                                <form method="post" action="/manage/deleteskill/@s.Id" class="inline">
+                                    @Html.AntiForgeryToken()
+                                    <button class="btn btn-small btn-danger" type="submit"
+                                            onclick="return confirm('Delete this skill group?')">
+                                        Delete
+                                    </button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
 
-    <div style="margin-top:12px;">
-        <a class="btn" href="/admin">Back</a>
-    </div>
+        <div class="actions" style="margin-top:12px;">
+            <a class="btn" href="/admin">Back</a>
+        </div>
+    </section>
 </div>

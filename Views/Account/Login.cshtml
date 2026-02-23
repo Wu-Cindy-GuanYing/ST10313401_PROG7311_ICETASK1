@@ -3,28 +3,32 @@
     ViewData["Title"] = "Admin Login";
 }
 
-<div class="container">
-    <h1>Admin Login</h1>
+<div class="stack">
+    <section class="card">
+        <h1>Admin Login</h1>
+        <p>Login to update your CV content.</p>
+    </section>
 
-    <form method="post" class="form">
-        @Html.AntiForgeryToken()
+    <section class="card">
+        <form method="post" class="form">
+            @Html.AntiForgeryToken()
 
-        <label>Email</label>
-        <input class="input" asp-for="Email" />
-        <span class="help">@Html.ValidationMessageFor(m => m.Email)</span>
+            <label>Email</label>
+            <input class="input" asp-for="Email" />
+            <div class="help">@Html.ValidationMessageFor(m => m.Email)</div>
 
-        <label>Password</label>
-        <input class="input" asp-for="Password" type="password" />
-        <span class="help">@Html.ValidationMessageFor(m => m.Password)</span>
+            <label>Password</label>
+            <input class="input" asp-for="Password" type="password" />
+            <div class="help">@Html.ValidationMessageFor(m => m.Password)</div>
 
-        <input type="hidden" asp-for="ReturnUrl" />
+            <input type="hidden" asp-for="ReturnUrl" />
 
-        <button class="btn btn-primary" type="submit">Login</button>
-
-        <div class="help">
-            Default seed credentials are in <code>SeedData.cs</code>. Change them immediately.
-        </div>
-    </form>
+            <div class="actions">
+                <button class="btn btn-primary" type="submit">Login</button>
+                <a class="btn" href="/">Back</a>
+            </div>
+        </form>
+    </section>
 </div>
 
 @section Scripts {

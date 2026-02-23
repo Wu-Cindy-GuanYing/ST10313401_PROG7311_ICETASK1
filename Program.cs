@@ -1,7 +1,8 @@
+using System.IO;
 using CV_Online_ST10313401.Data;
-using CV_Online_ST10313401.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using CV_Online_ST10313401.Services;
 
 namespace CV_Online_ST10313401
 {
@@ -13,9 +14,18 @@ namespace CV_Online_ST10313401
 
             builder.Services.AddControllersWithViews();
 
+            // ✅ Stable, always-the-same location
+            var dataDir = Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                "CV_Online_ST10313401");
+
+            Directory.CreateDirectory(dataDir);
+
+            var dbPath = Path.Combine(dataDir, "cv.db");
+            Console.WriteLine("SQLite DB Path: " + dbPath);
+
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")
-                    ?? "Data Source=cv.db"));
+                options.UseSqlite($"Data Source={dbPath}"));
 
             builder.Services
                 .AddIdentity<IdentityUser, IdentityRole>(options =>
@@ -40,8 +50,6 @@ namespace CV_Online_ST10313401
 
             using (var scope = app.Services.CreateScope())
             {
-                var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-                db.Database.Migrate();
                 await SeedData.InitializeAsync(scope.ServiceProvider);
             }
 

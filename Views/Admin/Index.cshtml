@@ -2,22 +2,28 @@
     ViewData["Title"] = "Admin";
 }
 
-<div class="container">
-    <h1>Admin Dashboard</h1>
+<div class="stack">
+    <section class="card">
+        <h1>Admin Dashboard</h1>
+        <p>Update your CV content. Public link stays the same.</p>
 
-    <div class="notice">
-        <strong>Tip:</strong> Keep headings standard (Skills, Education, Experience, Projects) for ATS.
-    </div>
+        <div class="actions">
+            <a class="btn btn-primary" href="/manage/profile">Edit Profile</a>
+            <a class="btn" href="/">View Public CV</a>
+        </div>
+    </section>
 
-    <div class="grid">
-        <a class="card" href="/manage/profile">Edit Profile</a>
-        <a class="card" href="/manage/skills">Skills</a>
-        <a class="card" href="/manage/projects">Projects</a>
-        <a class="card" href="/manage/education">Education</a>
-        <a class="card" href="/manage/experience">Experience</a>
-        <a class="card" href="/manage/certifications">Certifications</a>
-        <a class="card" href="/manage/volunteering">Volunteering / Leadership</a>
-        <a class="card" href="/manage/interests">Interests</a>
-        <a class="card" href="/">View Public CV</a>
-    </div>
+    <section class="card">
+        <h2>Sections</h2>
+
+        <div class="row">
+            <a class="btn" href="/manage/skills">Skills</a>
+            <a class="btn" href="/manage/projects">Projects</a>
+            <a class="btn" href="/manage/education">Education</a>
+            <a class="btn" href="/manage/experience">Experience</a>
+            <a class="btn" href="/manage/certifications">Certifications</a>
+            <a class="btn" href="/manage/volunteering">Volunteering</a>
+            <a class="btn" href="/manage/interests">Interests</a>
+        </div>
+    </section>
 </div>

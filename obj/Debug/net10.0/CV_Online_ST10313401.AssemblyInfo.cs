@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CV_Online_ST10313401")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db122736212ccf971253355f88b12a0dc2724993")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49758eef639176a7ba46350eeaf1a38f06d4f7bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("CV_Online_ST10313401")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CV_Online_ST10313401")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

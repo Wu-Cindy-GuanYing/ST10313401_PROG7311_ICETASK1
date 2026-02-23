@@ -9,29 +9,29 @@
 <body>
     <header class="topbar">
         <div class="container topbar-inner">
-            <a class="brand" href="/">Online CV</a>
+            <a class="brand" href="/">CV</a>
 
             <nav class="nav">
-                <a href="/">Public CV</a>
-                <a href="/cv.pdf">PDF</a>
+                <a class="navlink" href="/">View CV</a>
+                <a class="navlink" href="/cv.pdf">Download PDF</a>
 
                 @if (User?.Identity?.IsAuthenticated == true)
                 {
-                    <a href="/admin">Admin</a>
-                    <form method="post" action="/account/logout" style="display:inline;">
+                    <a class="navlink" href="/admin">Admin</a>
+                    <form method="post" action="/account/logout" class="inline">
                         @Html.AntiForgeryToken()
-                        <button class="linkbtn" type="submit">Logout</button>
+                        <button class="navlink btnlink" type="submit">Logout</button>
                     </form>
                 }
                 else
                 {
-                    <a href="/account/login">Admin Login</a>
+                    <a class="navlink" href="/account/login">Admin Login</a>
                 }
             </nav>
         </div>
     </header>
 
-    <main>
+    <main class="container page">
         @RenderBody()
     </main>
 

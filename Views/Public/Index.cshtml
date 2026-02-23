@@ -3,210 +3,238 @@
     ViewData["Title"] = Model.Profile.FullName;
 }
 
-<div class="container">
-    <header class="hero">
-        <div style="flex:1 1 320px;">
-            <h1 style="margin:0;">@Model.Profile.FullName</h1>
-            <p style="margin:6px 0 0 0; font-size:1.05rem;">@Model.Profile.ProfessionalTitle</p>
+<div class="stack">
+    <section class="card">
+        <div class="hero">
+            <div class="grow">
+                <div class="kicker">Online CV</div>
+                <h1 class="title">@Model.Profile.FullName</h1>
+                <div class="badge" style="margin-top:10px;">
+                    @Model.Profile.ProfessionalTitle
+                </div>
 
-            <p style="margin:10px 0 0 0;">
-                <a href="mailto:@Model.Profile.Email">@Model.Profile.Email</a>
-                @if (!string.IsNullOrWhiteSpace(Model.Profile.LinkedInUrl))
+                <p class="subtitle">
+                    @Model.Profile.AboutMe
+                </p>
+
+                <div class="actions">
+                    <a class="btn btn-primary" href="mailto:@Model.Profile.Email">Email</a>
+                    @if (!string.IsNullOrWhiteSpace(Model.Profile.LinkedInUrl))
+                    {
+                        <a class="btn" href="@Model.Profile.LinkedInUrl" target="_blank" rel="noopener">LinkedIn</a>
+                    }
+                    @if (!string.IsNullOrWhiteSpace(Model.Profile.GitHubUrl))
+                    {
+                        <a class="btn" href="@Model.Profile.GitHubUrl" target="_blank" rel="noopener">GitHub</a>
+                    }
+                    <a class="btn" href="/cv.pdf">Download PDF</a>
+                </div>
+
+                @if (!string.IsNullOrWhiteSpace(Model.Profile.Region))
                 {
-                    <span> · <a href="@Model.Profile.LinkedInUrl" target="_blank" rel="noopener">LinkedIn</a></span>
+                    <div class="help" style="margin-top:10px;">@Model.Profile.Region</div>
                 }
-                @if (!string.IsNullOrWhiteSpace(Model.Profile.GitHubUrl))
-                {
-                    <span> · <a href="@Model.Profile.GitHubUrl" target="_blank" rel="noopener">GitHub</a></span>
-                }
-                <span> · <a href="/cv.pdf">Download PDF</a></span>
-            </p>
+            </div>
 
-            @if (!string.IsNullOrWhiteSpace(Model.Profile.Region))
-            {
-                <p class="help" style="margin:6px 0 0 0;">@Model.Profile.Region</p>
-            }
+            <div class="right">
+                <div class="avatar" aria-label="Profile photo">
+                    @if (!string.IsNullOrWhiteSpace(Model.Profile.PhotoUrl))
+                    {
+                        <img src="@Model.Profile.PhotoUrl" alt="Profile photo" />
+                    }
+                </div>
+            </div>
         </div>
-
-        <div class="avatar">
-            @if (!string.IsNullOrWhiteSpace(Model.Profile.PhotoUrl))
-            {
-                <img src="@Model.Profile.PhotoUrl" alt="Profile photo" />
-            }
-        </div>
-    </header>
-
-    <section class="section">
-        <h2>About Me</h2>
-        <p>@Model.Profile.AboutMe</p>
     </section>
 
     @if (Model.Skills.Any())
     {
-        <section class="section">
+        <section class="card">
             <h2>Skills</h2>
 
-            @foreach (var g in Model.Skills)
-            {
-                <div class="card" style="margin-top:10px;">
-                    <strong>@g.Title</strong>
-                    <div class="tagrow">
-                        @{
-                            var tags = (g.TagsCsv ?? "")
-                            .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-                            foreach (var t in tags)
-                            {
-                                <span class="tag">@t</span>
-                            }
-                        }
-                    </div>
-                </div>
-            }
-        </section>
-    }
-
-    @if (Model.Projects.Any())
-    {
-        <section class="section">
-            <h2>Projects</h2>
-
-            @foreach (var p in Model.Projects)
-            {
-                <article class="card" style="margin-top:10px;">
-                    <h3 style="margin:0;">@p.Name</h3>
-                    <p style="margin:8px 0;">@p.Description</p>
-                    <p style="margin:8px 0;"><strong>Tech stack:</strong> @p.TechStack</p>
-
-                    <div class="actions">
-                        <a class="btn" href="@p.GitHubUrl" target="_blank" rel="noopener">GitHub Repo</a>
-                        @if (!string.IsNullOrWhiteSpace(p.LiveDemoUrl))
-                        {
-                            <a class="btn" href="@p.LiveDemoUrl" target="_blank" rel="noopener">Live Demo</a>
-                        }
-                        @if (!string.IsNullOrWhiteSpace(p.ScreenshotUrl))
-                        {
-                            <a class="btn" href="@p.ScreenshotUrl" target="_blank" rel="noopener">Screenshot</a>
-                        }
-                    </div>
-                </article>
-            }
-        </section>
-    }
-
-    @if (Model.Experience.Any())
-    {
-        <section class="section">
-            <h2>Experience</h2>
-
-            @foreach (var x in Model.Experience)
-            {
-                <div class="card" style="margin-top:10px;">
-                    <strong>@x.Role</strong> — @x.Company
-                    @if (!string.IsNullOrWhiteSpace(x.DateRange))
-                    {
-                        <span class="help">(@x.DateRange)</span>
-                    }
-
-                    @if (!string.IsNullOrWhiteSpace(x.Bullets))
-                    {
-                        <div style="margin-top:10px; white-space:pre-line;">@x.Bullets</div>
-                    }
-                </div>
-            }
-        </section>
-    }
-
-    @if (Model.Education.Any())
-    {
-        <section class="section">
-            <h2>Education</h2>
-
-            @foreach (var e in Model.Education)
-            {
-                <div class="card" style="margin-top:10px;">
-                    <strong>@e.Degree</strong> — @e.Institution
-                    @if (!string.IsNullOrWhiteSpace(e.ExpectedGraduation))
-                    {
-                        <span class="help">(@e.ExpectedGraduation)</span>
-                    }
-                    @if (!string.IsNullOrWhiteSpace(e.Highlights))
-                    {
-                        <div style="margin-top:10px;">@e.Highlights</div>
-                    }
-                </div>
-            }
-        </section>
-    }
-
-    @if (Model.Certifications.Any())
-    {
-        <section class="section">
-            <h2>Certifications</h2>
-
-            @foreach (var c in Model.Certifications)
-            {
-                <div class="card" style="margin-top:10px;">
-                    <strong>@c.Name</strong>
-                    @if (!string.IsNullOrWhiteSpace(c.Issuer) || !string.IsNullOrWhiteSpace(c.Year))
-                    {
-                        <div class="help">@c.Issuer @(!string.IsNullOrWhiteSpace(c.Year) ? $"({c.Year})" : "")</div>
-                    }
-                    @if (!string.IsNullOrWhiteSpace(c.Url))
-                    {
-                        <div style="margin-top:8px;"><a href="@c.Url" target="_blank" rel="noopener">Credential link</a></div>
-                    }
-                </div>
-            }
-        </section>
-    }
-
-    @if (Model.Volunteering.Any())
-    {
-        <section class="section">
-            <h2>Volunteering / Leadership</h2>
-
-            @foreach (var v in Model.Volunteering)
-            {
-                <div class="card" style="margin-top:10px;">
-                    <strong>@v.Title</strong>
-                    @if (!string.IsNullOrWhiteSpace(v.Org))
-                    {
-                        <span class="help">— @v.Org</span>
-                    }
-                    @if (!string.IsNullOrWhiteSpace(v.Description))
-                    {
-                        <div style="margin-top:10px;">@v.Description</div>
-                    }
-                </div>
-            }
-        </section>
-    }
-
-    @if (Model.Interests.Any())
-    {
-        <section class="section">
-            <h2>Interests</h2>
-            <div class="card" style="margin-top:10px;">
-                @foreach (var i in Model.Interests)
+            <div class="stack">
+                @foreach (var g in Model.Skills)
                 {
-                    <div>@i.Text</div>
+                    <div>
+                        <div class="badge">@g.Title</div>
+                        <div class="chips">
+                            @{
+                                var tags = (g.TagsCsv ?? "")
+                                .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                                foreach (var t in tags)
+                                {
+                                    <span class="chip">@t</span>
+                                }
+                            }
+                        </div>
+                    </div>
                 }
             </div>
         </section>
     }
 
-    <section class="section">
+    @if (Model.Projects.Any())
+    {
+        <section class="card">
+            <h2>Projects</h2>
+
+            <div class="stack">
+                @foreach (var p in Model.Projects)
+                {
+                    <article class="card" style="box-shadow:none;">
+                        <div class="row" style="justify-content:space-between;">
+                            <div class="grow">
+                                <h3>@p.Name</h3>
+                                <p>@p.Description</p>
+                                <div class="help"><strong style="color:var(--text);">Tech stack:</strong> @p.TechStack</div>
+                            </div>
+
+                            <div class="actions" style="margin-top:0;">
+                                <a class="btn btn-small" href="@p.GitHubUrl" target="_blank" rel="noopener">Repo</a>
+                                @if (!string.IsNullOrWhiteSpace(p.LiveDemoUrl))
+                                {
+                                    <a class="btn btn-small" href="@p.LiveDemoUrl" target="_blank" rel="noopener">Demo</a>
+                                }
+                            </div>
+                        </div>
+                    </article>
+                }
+            </div>
+        </section>
+    }
+
+    @if (Model.Experience.Any())
+    {
+        <section class="card">
+            <h2>Experience</h2>
+
+            <div class="stack">
+                @foreach (var x in Model.Experience)
+                {
+                    <div>
+                        <div class="row" style="justify-content:space-between;">
+                            <div class="grow">
+                                <h3 style="margin-bottom:6px;">@x.Role</h3>
+                                <div class="help">@x.Company @(!string.IsNullOrWhiteSpace(x.DateRange) ? $" · {x.DateRange}" : "")</div>
+                            </div>
+                        </div>
+
+                        @if (!string.IsNullOrWhiteSpace(x.Bullets))
+                        {
+                            <div class="hr"></div>
+                            <div style="white-space:pre-line; color:var(--muted);">
+                                @x.Bullets
+                            </div>
+                        }
+                        <div class="hr"></div>
+                    </div>
+                }
+            </div>
+        </section>
+    }
+
+    @if (Model.Education.Any())
+    {
+        <section class="card">
+            <h2>Education</h2>
+
+            <div class="stack">
+                @foreach (var e in Model.Education)
+                {
+                    <div>
+                        <h3 style="margin-bottom:6px;">@e.Degree</h3>
+                        <div class="help">
+                            @e.Institution
+                            @(!string.IsNullOrWhiteSpace(e.ExpectedGraduation) ? $" · {e.ExpectedGraduation}" : "")
+                        </div>
+
+                        @if (!string.IsNullOrWhiteSpace(e.Highlights))
+                        {
+                            <div class="hr"></div>
+                            <div style="color:var(--muted);">@e.Highlights</div>
+                        }
+                        <div class="hr"></div>
+                    </div>
+                }
+            </div>
+        </section>
+    }
+
+    @if (Model.Certifications.Any())
+    {
+        <section class="card">
+            <h2>Certifications</h2>
+
+            <div class="stack">
+                @foreach (var c in Model.Certifications)
+                {
+                    <div class="row" style="justify-content:space-between;">
+                        <div class="grow">
+                            <h3 style="margin-bottom:6px;">@c.Name</h3>
+                            <div class="help">@c.Issuer @(!string.IsNullOrWhiteSpace(c.Year) ? $" · {c.Year}" : "")</div>
+                        </div>
+                        @if (!string.IsNullOrWhiteSpace(c.Url))
+                        {
+                            <div class="actions" style="margin-top:0;">
+                                <a class="btn btn-small" href="@c.Url" target="_blank" rel="noopener">Credential</a>
+                            </div>
+                        }
+                    </div>
+                    <div class="hr"></div>
+                }
+            </div>
+        </section>
+    }
+
+    @if (Model.Volunteering.Any())
+    {
+        <section class="card">
+            <h2>Volunteering / Leadership</h2>
+
+            <div class="stack">
+                @foreach (var v in Model.Volunteering)
+                {
+                    <div>
+                        <h3 style="margin-bottom:6px;">@v.Title</h3>
+                        <div class="help">@v.Org</div>
+                        @if (!string.IsNullOrWhiteSpace(v.Description))
+                        {
+                            <div class="hr"></div>
+                            <div style="color:var(--muted);">@v.Description</div>
+                        }
+                        <div class="hr"></div>
+                    </div>
+                }
+            </div>
+        </section>
+    }
+
+    @if (Model.Interests.Any())
+    {
+        <section class="card">
+            <h2>Interests</h2>
+            <div class="stack">
+                @foreach (var i in Model.Interests)
+                {
+                    <div class="badge">@i.Text</div>
+                }
+            </div>
+        </section>
+    }
+
+    <section class="card">
         <h2>Contact</h2>
-        <div class="card">
-            <div>Email: <a href="mailto:@Model.Profile.Email">@Model.Profile.Email</a></div>
+        <div class="stack">
+            <div class="badge">Email: <a href="mailto:@Model.Profile.Email" style="text-decoration:underline; text-underline-offset:2px;">@Model.Profile.Email</a></div>
+
             @if (!string.IsNullOrWhiteSpace(Model.Profile.LinkedInUrl))
             {
-                <div>LinkedIn: <a href="@Model.Profile.LinkedInUrl" target="_blank" rel="noopener">@Model.Profile.LinkedInUrl</a></div>
+                <div class="badge">LinkedIn: <a href="@Model.Profile.LinkedInUrl" target="_blank" rel="noopener" style="text-decoration:underline; text-underline-offset:2px;">@Model.Profile.LinkedInUrl</a></div>
             }
         </div>
 
-        <div class="help" style="margin-top:10px;">
-            Safety reminder: don’t publish your home address, ID/passport number, or date of birth.
+        <div class="help" style="margin-top:12px;">
+            For safety: don’t publish home address, ID/passport number, or date of birth.
         </div>
     </section>
 </div>
